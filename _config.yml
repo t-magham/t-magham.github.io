@@ -23,19 +23,17 @@ nav:
     link: "/assets/tmagham.pdf"
   - name: "contact"
     link: "/contact"
-  - name: "rss"
-    link: "/feed"
 
 social:
-  - name: linkedin/joaopdias
+  - name: linkedin/tmagham
     icon: ri-linkedin-box-line
-    url: https://www.linkedin.com/in/joaopdias/
+    url: https://www.linkedin.com/in/tmagham/
   - name: github/tmagham
     icon: ri-github-line
-    url: https://github.com/tmagham
-  - name: gitlab/joaopdias
+    url: https://github.com/t-magham
+  - name: gitlab/tmagham
     icon: ri-gitlab-line
-    url: https://gitlab.com/joaopdias
+    url: https://gitlab.com/tmagham
 
 academic:
 

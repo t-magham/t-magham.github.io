@@ -6,7 +6,7 @@ description: "Engineer. Developer. Tech enthusiast. Researching on the thin line
 
 ## About Me
 
-<img class="profile-picture" src="images/profile.jpeg" alt="Profile picture">
+<img class="profile-picture" src="images/profile.jpg" alt="Profile picture">
 
 <!--<a href="https://github.com/sponsors/jpdias" target="blank" class="sponsor sponsor-button"><i class="ri-heart-2-line"></i> Sponsor<a/>-->
 
@@ -29,7 +29,7 @@ In my free time, I love to swimm, cycle & play Football. I also enjoy experiment
 
 ## Education
 
-- [2023--] Bachlor Degree Software Engineering @ [Ktun](https://www.ktun.edu.tr/)
+- [2023--] Bachlor Degree in Software Engineering @ [Ktun](https://www.ktun.edu.tr/)
 - [2016-23] Graduated from Math & Engineering Department @ Lyceé D'excellence II [Nouakchott, Mauritania](https://en.wikipedia.org/wiki/Nouakchott)
 
 ## Work Interests
