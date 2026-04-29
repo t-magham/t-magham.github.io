@@ -1,36 +1,38 @@
 ---
 layout: default
-title: "./jpdias/"
-description: "Engineer. Developer. Photography enthusiast. Researching on the thin line between hardware and software."
+title: "./tmagham/"
+description: "Engineer. Developer. Tech enthusiast. Researching on the thin line between hardware and software."
 ---
 
 ## About Me
 
-<img class="profile-picture" src="images/profile.png" alt="Profile picture">
+<img class="profile-picture" src="images/profile.jpeg" alt="Profile picture">
 
 <!--<a href="https://github.com/sponsors/jpdias" target="blank" class="sponsor sponsor-button"><i class="ri-heart-2-line"></i> Sponsor<a/>-->
 
 {% highlight bash %}
 $ whoami
-jpdias: phd. engineer. developer. photography enthusiast.
+Taregh Magham: software engineer. developer. tech enthusiast.
 {% endhighlight %}
 
-João Pedro Dias is part researcher on the thin line between hardware and software, and part Software Engineer. He has a BSc+MSc in [Informatics and Computing Engineering](https://sigarra.up.pt/feup/en/cur_geral.cur_view?pv_ano_lectivo=2018&pv_origem=CUR&pv_tipo_cur_sigla=MI&pv_curso_id=742) from the [Faculty of Engineering, University of Porto (FEUP)](https://sigarra.up.pt/feup/en/WEB_PAGE.INICIAL). He earned his Ph.D. in Informatics Engineering from FEUP in 2022 (with an FCT research grant). He maintains a Software Engineer position as a day-to-day job at [Kuehne+Nagel](https://kuehne-nagel.com/). Previously, he was an Invited Assistant Professor at FEUP, where he taught courses in Software Engineering, Operating Systems, among others. He has (co-)supervised 5+ MSc dissertations and contributed to two projects at LIACC and INESC TEC. His research focuses on Internet-of-Things systems, software engineering, security, and privacy, and his work has been published in several top-tier conferences and journals ([h-index 20, i10-index 25](https://scholar.google.com/citations?user=sQ2vKI0AAAAJ)). In his free time, he enjoys participating in Capture The Flag competitions, experimenting with Software-defined Radio, building web applications, reverse-engineering hardware, and photographing while wandering in nature.
+Hi, there!
+
+I'm Taregh Magham, a Software Engineering student currently in [Konya Technical University](https://www.ktun.edu.tr/) in the beautiful city of [Konya, Turkey](https://en.wikipedia.org/wiki/Konya). Since I was a child I was curious, always asking [Why?]() questions about things. The day I saw the first computer, it felt mysterious! and that feeling has stuck with me since then. It has become an intrinsic need for me to deeply understand how these powerful machines operate, and why they behave the way they do. Welcome to my journey!
+
+In my free time, I love to swimm, cycle & play Football. I also enjoy experimenting with Software-tools, building side projects, thinking about solutions for problems, and photographing while wandering in nature.
 
 
 ## Current Positions
 
-- [2023--] Team Lead and Software Architect @ [Kuehne+Nagel](https://kuehne-nagel.com)
+- [2023--] Software Engineering Student @ [Ktun](https://www.ktun.edu.tr/)
 
 
-## Previous Positions
+## Education
 
-- [2018-24] Invited Assistant Professor @ [Faculty of Engineering, University of Porto](https://sigarra.up.pt/feup/en/WEB_PAGE.INICIAL)
-- [2021-23] Software Engineering Specialist @ [BUILT CoLAB](https://builtcolab.pt/)
-- [2017-21] Researcher @ [INESC Technology and Science - Associate Laboratory](https://www.inesctec.pt/en)
-- [2016-17] Researcher @ [LIACC - Artificial Intelligence and Computer Science Laboratory](https://liacc.fe.up.pt/)
+- [2023--] Bachlor Degree Software Engineering @ [Ktun](https://www.ktun.edu.tr/)
+- [2016-23] Graduated from Math & Engineering Department @ Lyceé D'excellence II [Nouakchott, Mauritania](https://en.wikipedia.org/wiki/Nouakchott)
 
-## Research & Work Interests
+## Work Interests
 
 - Software Engineering
   - Design Patterns, Event-driven Architectures, Software Development, Edge/Fog/Cloud Computing, Visual Programming and Fault-Tolerance
@@ -39,41 +41,3 @@ João Pedro Dias is part researcher on the thin line between hardware and softwa
 - Security & Privacy
   - Surveillance Self-Defense, Capture the Flag (CTF) and Security Education
 
-## Recent Talks
-
-{% assign counter = 0 %}
-{% for talk in site.data.talks.talks limit:3 %}
-
-<article class="talk-item">
-    <div class="talk-title"><span><i class="ri-presentation-fill"></i> </span><b>{{ talk.title }}</b><br></div>
-    <div>
-        <span><i class="ri-calendar-schedule-fill"></i> {{ talk.year }}</span>
-        <span><i class="ri-tent-fill"></i> {{ talk.venue }}</span>
-        <span><a href="{{ talk.slides }}" target="_blank" rel="noopener noreferrer"><i class="ri-file-download-fill"></i> Slides (pdf)</a></span>
-    </div>
-   
-</article>
-
-{% endfor %}
-
-## Recent Publications
-
-{% assign counter = 0 %}
-
-{% for pub in site.data.publications.journals limit:2 %}
-{% assign counter = counter | plus:1 %}
-<div class="pub-item">
-<div class="pub-title"><span>[{{ counter }}]</span><a href="{{ pub.url }}" target="_blank"><b>{{ pub.title }}</b></a><br></div>
-<div><i class="ri-group-line"></i> {{ pub.authors }}</div>
-<div><i class="ri-book-3-line"></i>  {{ pub.conference }}</div>
-</div>
-{% endfor %}
-
-{% for pub in site.data.publications.confs limit:2 %}
-{% assign counter = counter | plus:1 %}
-<div class="pub-item">
-<div class="pub-title"><span>[{{ counter }}]</span><a href="{{ pub.url }}" target="_blank"><b>{{ pub.title }}</b></a><br></div>
-<div><i class="ri-group-line"></i> {{ pub.authors }}</div>
-<div><i class="ri-book-3-line"></i>  {{ pub.conference }}</div>
-</div>
-{% endfor %}
