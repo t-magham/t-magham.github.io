@@ -39,7 +39,7 @@ layout: default
     <a
       rel="cc:attributionURL dct:creator"
       property="cc:attributionName"
-      href="https://jpdias.me">{{ site.username }}</a>
+      href="{{ site.url }}">{{ site.username }}</a>
     is licensed under
     <a
       href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1"

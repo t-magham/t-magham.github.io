@@ -10,7 +10,7 @@ markdown: kramdown
 excerpt_separator: <!--more-->
 highlighter: rouge
 paginate: 8
-paginate_path: "/notes/page:num/"
+paginate_path: "/projects/page:num/"
 
 plugins: [rouge,kramdown,jekyll-paginate]
 
@@ -19,6 +19,8 @@ footer: yes
 nav:
   - name: "about"
     link: "/"
+  - name: "projects"
+    link: "/projects"
   - name: "cv.pdf"
     link: "/assets/tmagham.pdf"
   - name: "contact"
